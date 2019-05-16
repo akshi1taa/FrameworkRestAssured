@@ -1,0 +1,16 @@
+<suite name="RetailApp" parallel="test">
+
+	<test name="LoginTest">
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+
+	<test name="AddCategory">
+		<classes>
+			<class name="tests.AddCategory"></class>
+		</classes>
+	</test>
+
+
+</suite>                                                                                                                                                                                                                                                                                                                                                                                             
