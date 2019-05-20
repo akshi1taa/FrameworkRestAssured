@@ -19,6 +19,7 @@ import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import io.restassured.RestAssured;
 
@@ -75,7 +76,7 @@ public class BaseTest1 {
 
 		repFolder = ExtentManager.repFolder; // changed!
 
-		test = exRep.createTest("Login");
+		test = exRep.createTest("Login"+iteration);
 
 		requestWriter = new StringWriter();
 		requestCapture = new PrintStream(new WriterOutputStream(requestWriter), true); // # what is this statement doing?
@@ -107,8 +108,7 @@ public class BaseTest1 {
 		try // new folder named log created inside the date wala folder
 		{
 			System.out.println(repFolder + "\\log\\" + fileName + ".html");
-			new File(repFolder + "\\log\\" + fileName + ".html").createNewFile();		//#
-		} 
+			new File(repFolder + "\\log\\" + fileName + ".html").createNewFile();				} 
 			
 
 		catch (IOException e) {
@@ -120,7 +120,6 @@ public class BaseTest1 {
 
 		try {
 			fw = new FileWriter(repFolder + "\\log\\" + fileName + ".html"); // # //changing path here changed solved
-																				// above issue..still req.:to have
 																				// better idea
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(content);
@@ -131,6 +130,9 @@ public class BaseTest1 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		// add to report
+		test.log(Status.INFO,"<a href='log/"+fileName+".html' target='_blank'>Click Here for "+msg+"</a>");
 	}
 
 }

@@ -6,7 +6,7 @@
       <class name="tests.LoginTest">
         <methods>
           <include name="init"/>
-          <include name="doLogin"/>
+          <include name="doLogin" invocation-numbers="0 1 2 3"/>
           <include name="report"/>
           <include name="after"/>
         </methods>

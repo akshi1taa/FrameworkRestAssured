@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6926" started-at="2019-05-15T08:53:19Z" finished-at="2019-05-15T08:53:26Z">
+  <suite name="Default suite" duration-ms="7561" started-at="2019-05-20T07:20:58Z" finished-at="2019-05-20T07:21:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6926" started-at="2019-05-15T08:53:19Z" finished-at="2019-05-15T08:53:26Z">
+    <test name="Default test" duration-ms="7561" started-at="2019-05-20T07:20:58Z" finished-at="2019-05-20T07:21:06Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.LoginTest@59ec2012]" name="init" is-config="true" duration-ms="742" started-at="2019-05-15T14:23:19Z" finished-at="2019-05-15T14:23:20Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.LoginTest@59ec2012]" name="init" is-config="true" duration-ms="732" started-at="2019-05-20T12:50:58Z" finished-at="2019-05-20T12:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="134" started-at="2019-05-15T14:23:23Z" finished-at="2019-05-15T14:23:23Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="162" started-at="2019-05-20T12:51:02Z" finished-at="2019-05-20T12:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="1649" started-at="2019-05-15T14:23:23Z" data-provider="getData" finished-at="2019-05-15T14:23:25Z">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="1759" started-at="2019-05-20T12:51:02Z" data-provider="getData" finished-at="2019-05-20T12:51:03Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="206" started-at="2019-05-15T14:23:25Z" finished-at="2019-05-15T14:23:25Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="236" started-at="2019-05-20T12:51:03Z" finished-at="2019-05-20T12:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="623" started-at="2019-05-15T14:23:25Z" data-provider="getData" finished-at="2019-05-15T14:23:26Z">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="640" started-at="2019-05-20T12:51:04Z" data-provider="getData" finished-at="2019-05-20T12:51:04Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="0" started-at="2019-05-15T14:23:25Z" finished-at="2019-05-15T14:23:25Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="0" started-at="2019-05-20T12:51:04Z" finished-at="2019-05-20T12:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="66" started-at="2019-05-15T14:23:26Z" finished-at="2019-05-15T14:23:26Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="118" started-at="2019-05-20T12:51:04Z" finished-at="2019-05-20T12:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="653" started-at="2019-05-15T14:23:26Z" data-provider="getData" finished-at="2019-05-15T14:23:26Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="1" started-at="2019-05-20T12:51:04Z" finished-at="2019-05-20T12:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="652" started-at="2019-05-20T12:51:04Z" data-provider="getData" finished-at="2019-05-20T12:51:05Z">
           <params>
             <param index="0">
               <value>
@@ -60,11 +64,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="0" started-at="2019-05-15T14:23:26Z" finished-at="2019-05-15T14:23:26Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="121" started-at="2019-05-20T12:51:05Z" finished-at="2019-05-20T12:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="report()[pri:0, instance:tests.LoginTest@59ec2012]" name="report" is-config="true" duration-ms="1" started-at="2019-05-20T12:51:05Z" finished-at="2019-05-20T12:51:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="76" started-at="2019-05-15T14:23:26Z" finished-at="2019-05-15T14:23:26Z">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:tests.LoginTest@59ec2012]" name="doLogin" duration-ms="648" started-at="2019-05-20T12:51:05Z" data-provider="getData" finished-at="2019-05-20T12:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=abhinvkaushik@gmail.com, ExpectedLoginStatus=success, Password=mac123, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.LoginTest@59ec2012]" name="after" is-config="true" duration-ms="42" started-at="2019-05-20T12:51:06Z" finished-at="2019-05-20T12:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
